@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Blogging Platform using MERN & Gemini API
+# 🧠 AI-Powered Blogging Platform using MERN Stack & Gemini API
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Stack](https://img.shields.io/badge/Stack-MERN-blue)
@@ -79,13 +79,13 @@ GEMINI_API_KEY=your_google_gemini_api_key
 PORT=5000
 ```
 
-## 📸 Sample Screenshots of the Admin Dashboard
+## 📸 Sample Screenshots of the Admin Section
 
 <div style="display: flex; justify-content: center;">
-    <img src="images/Dashboard.png" alt="Dashboard" width="400"/>
-    <img src="images/Add_blog.png" alt="Add_blog" width="400"/>
-     <img src="images/Comments.png" alt="Comments" width="400"/>
-    <img src="images/Blog_List.png" alt="Blog_List" width="400"/>
+    <img src="images/Dashboard.png" alt="Dashboard" width="600"/>
+    <img src="images/Add_blog.png" alt="Add_blog" width="600"/>
+     <img src="images/Comments.png" alt="Comments" width="600"/>
+    <img src="images/Blog_List.png" alt="Blog_List" width="600"/>
 </div>
 
 ---
