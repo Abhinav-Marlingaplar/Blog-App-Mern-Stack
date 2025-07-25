@@ -82,10 +82,10 @@ PORT=5000
 ## 📸 Sample Screenshots of the Admin Dashboard
 
 <div style="display: flex; justify-content: center;">
-    <img src="images/Dashboard.png" alt="Dashboard" width="800"/>
-    <img src="images/Add_blog.png" alt="Add_blog" width="800"/>
-     <img src="images/Comments.png" alt="Comments" width="800"/>
-    <img src="images/Blog_List.png" alt="Blog_List" width="800"/>
+    <img src="images/Dashboard.png" alt="Dashboard" width="400"/>
+    <img src="images/Add_blog.png" alt="Add_blog" width="400"/>
+     <img src="images/Comments.png" alt="Comments" width="400"/>
+    <img src="images/Blog_List.png" alt="Blog_List" width="400"/>
 </div>
 
 ---
