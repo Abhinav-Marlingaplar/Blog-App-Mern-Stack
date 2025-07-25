@@ -12,9 +12,9 @@
 
 ## 🧠 Overview
 
-This project is an **AI-powered full-stack blogging platform** built using the **MERN stack (MongoDB, Express, React, Node.js)** and integrated with the **Google Gemini API** for AI-assisted blog content creation. Admins can write or generate blogs, review user comments, and manage content. Users can view blogs and leave moderated comments.
+**Blog-App-Mern-Stack** is an **AI-powered full-stack blogging platform** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and integrated with the **Google Gemini API** for AI-assisted blog content creation. Admins can write or generate blogs, review user comments, and manage content. Users can view blogs and leave moderated comments.
 
-> 🔗 **Live Demo**: [https://your-vercel-deployment-url.vercel.app](https://your-vercel-deployment-url.vercel.app)
+> 🔗 **Live Demo**: [https://blog-app-mern-stack-seven.vercel.app/](https://blog-app-mern-stack-seven.vercel.app/)
 
 ---
 
@@ -25,7 +25,7 @@ This project is an **AI-powered full-stack blogging platform** built using the *
 - 🤖 **Gemini-Powered AI**: Use natural language prompts to auto-generate blog drafts.
 - 🌐 **Full-Stack MERN Architecture**: Cleanly structured client-server setup with RESTful APIs.
 - 📬 **API Testing via Postman**: All backend routes tested with Postman collections.
-- ⚡ **Deployment Ready**: Frontend hosted on Vercel; backend can be deployed on Render, Railway, etc.
+- ⚡ **Deployed on Vercel**: Frontend hosted for fast access; backend can be deployed separately.
 
 ---
 
@@ -44,13 +44,55 @@ This project is an **AI-powered full-stack blogging platform** built using the *
 
 ---
 
-## ⚙️ Setup and Installation (Optional)
+## 🔐 Admin Access
 
-> The application is already live and deployed.  
-> However, you can also run it locally for development or contributions.
+Admin credentials are **not publicly shared** for security reasons.
 
-### 1. Clone the Repository
+If you're testing the project locally, you can configure a test admin user securely using environment variables (`ADMIN_EMAIL`, `ADMIN_PASSWORD`).
 
-```bash
-git clone https://github.com/your-username/ai-blog-platform.git
-cd ai-blog-platform
+Avoid hardcoding or sharing real credentials in the codebase or public documentation.
+
+---
+
+## 🔧 Environment Variables
+
+The backend uses environment variables to manage credentials and sensitive keys.  
+Create a `.env` file inside the `/server` directory based on the following template:
+
+```env
+# .env.example
+
+# Admin credentials for login
+ADMIN_EMAIL=your-admin-email@example.com
+ADMIN_PASSWORD=your-secure-password
+
+# JWT token secret
+JWT_SECRET=your_jwt_secret_key
+
+# MongoDB database connection
+MONGO_URI=your_mongodb_connection_string
+
+# Gemini API key for blog generation
+GEMINI_API_KEY=your_google_gemini_api_key
+
+# Optional port
+PORT=5000
+
+## 📸 Sample Screenshots of the Blog App
+
+<div style="display: flex; justify-content: center;">
+    <img src="screenshots/home.png" alt="Home Page" width="800"/>
+    <img src="screenshots/admin.png" alt="Admin Dashboard" width="800"/>
+</div>
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+---
+
+## Author
+
+**Abhinav Marlingaplar**  
