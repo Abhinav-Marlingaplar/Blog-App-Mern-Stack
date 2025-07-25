@@ -77,8 +77,9 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 # Optional port
 PORT=5000
+```
 
-## 📸 Sample Screenshots of the Blog App
+## 📸 Sample Screenshots of the Admin Dashboard
 
 <div style="display: flex; justify-content: center;">
     <img src="screenshots/home.png" alt="Home Page" width="800"/>
