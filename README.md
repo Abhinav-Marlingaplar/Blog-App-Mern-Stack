@@ -10,7 +10,7 @@
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 **Blog-App-Mern-Stack** is an **AI-powered full-stack blogging platform** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and integrated with the **Google Gemini API** for AI-assisted blog content creation. Admins can write or generate blogs, review user comments, and manage content. Users can view blogs and leave moderated comments.
 
@@ -18,18 +18,18 @@
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- 📝 **Admin Dashboard**: Add, edit, or delete blogs. Generate content using Gemini API. Moderate comments.
-- 👥 **User Access**: Browse blogs, read full posts, and comment (pending admin approval).
-- 🤖 **Gemini-Powered AI**: Use natural language prompts to auto-generate blog drafts.
-- 🌐 **Full-Stack MERN Architecture**: Cleanly structured client-server setup with RESTful APIs.
-- 📬 **API Testing via Postman**: All backend routes tested with Postman collections.
-- ⚡ **Deployed on Vercel**: Frontend hosted for fast access; backend can be deployed separately.
+-  **Admin Dashboard**: Add, edit, or delete blogs. Generate content using Gemini API. Moderate comments.
+-  **User Access**: Browse blogs, read full posts, and comment (pending admin approval).
+-  **Gemini-Powered AI**: Use natural language prompts to auto-generate blog drafts.
+-  **Full-Stack MERN Architecture**: Cleanly structured client-server setup with RESTful APIs.
+-  **API Testing via Postman**: All backend routes tested with Postman collections.
+-  **Deployed on Vercel**: Frontend hosted for fast access; backend can be deployed separately.
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 | Technology             | Purpose                                   |
 |------------------------|-------------------------------------------|
@@ -44,7 +44,7 @@
 
 ---
 
-## 🔐 Admin Access
+## Admin Access
 
 Admin credentials are **not publicly shared** for security reasons.
 
@@ -54,7 +54,7 @@ Avoid hardcoding or sharing real credentials in the codebase or public documenta
 
 ---
 
-## 🔧 Environment Variables
+## Environment Variables
 
 The backend uses environment variables to manage credentials and sensitive keys.  
 Create a `.env` file inside the `/server` directory based on the following template:
@@ -79,7 +79,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 PORT=5000
 ```
 
-## 📸 Sample Screenshots of the Admin Section
+## Sample Screenshots of the Admin Section
 
 <div style="display: flex; justify-content: center;">
     <img src="images/Dashboard.png" alt="Dashboard" width="600"/>
